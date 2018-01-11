@@ -48,9 +48,25 @@ p {
   padding: 14px 20px;
 }
 
-.horizontal {
-  color: red;
-  float: left;
-  list-style: none;
-  margin: 10px;
+.content {
+  font-size: 18px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.content {
+  transform: scaleX(0);
+  transform-origin: right;
+  animation: grow-left cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes grow-left {
+  from {
+    transform: scaleX(o);
+  }
+  to {
+    transform: scaleX(1);
+  }
 }
