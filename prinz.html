@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 
 <meta charset="utf-8">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 <script src="prinz.js"></script>
+
+<script src="https://unpkg.com/typed.js@2.0.6/lib/typed.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 <link href="prinz.css" rel="stylesheet" type="text/css">
 <div class="container">
 
@@ -14,27 +19,56 @@
 
 
 
-    <ul>
-      <div class="second">
+      <ul>
+        <div class="second">
 
-      <form>
-        <li id="about">
-          <a href="https://twitter.com/prinzpiuz">about</a></li>
-        <li id="gallery"><a href="https://www.instagram.com/prinzpiuz/">gallery</a></li>
+          <form>
+            <li id="about">
+              <a href="https://twitter.com/prinzpiuz">about</a></li>
+            <li id="gallery"><a href="https://www.instagram.com/prinzpiuz/">gallery</a></li>
 
-        <li id="mail"><a href="mailto:prinzpiuz@gmail.com">mail</a></li>
-      </form></div>
-      <li2>@prinzpiuz</li2>
-    </ul></div>
+            <li id="mail"><a href="mailto:prinzpiuz@gmail.com">mail</a></li>
+          </form>
+        </div>
+        <li2>@prinzpiuz</li2>
+      </ul>
+    </div>
     <div class="content">
-    <div class="myImage">
-    <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAdIAAAAJGEwM2I0ZTNlLTQ4ZTQtNGNmYS1iZDJlLTJlY2YyMmZkYjBlZQ.jpg" class="medium" alt="prinzpiuz"/></div>
-    <div class="mainBody">
-    <body1>
-      <div class="bio">
-      <p>hi...........! myself prinzpiuz(officialy known as prince thaliath) i am GNU/linux enthusiast and electronics hobbyst...also i am intersted in coding and web designing...so this is part of it (thanks@freecodecamp)</p></div>
-      <div class="skills">
-        <p>i have written codes in python,javascript and also i am familiar with jquery also i write bash scripts</p></div>
-    </body1></div></div>
+      <div class="myImage">
+        <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAdIAAAAJGEwM2I0ZTNlLTQ4ZTQtNGNmYS1iZDJlLTJlY2YyMmZkYjBlZQ.jpg" class="medium" alt="prinzpiuz" /></div>
+      <div class="mainBody">
+        <body1>
+          <div class="bio">
+            <p>hi...........! myself prinzpiuz(officialy known as prince thaliath) i am GNU/linux enthusiast and electronics hobbyst...also i am intersted in coding and web designing...so this is part of it (thanks@freecodecamp)</p>
+          </div>
+          <div class="skills">
+            <p>i have written codes in python,javascript and also i am familiar with jquery also i write bash scripts</p>
+          </div>
+        </body1>
+      </div>
+    </div>
+    <div id="element"></div>
+
+
+
+    <script type="text/javascript" charset="utf-8">
+      var options = {
+        strings: ["hey..................", "..... i am ready to hire...!"],
+        typeSpeed: 40,
+        cursorChar: '_',
+
+        smartBackspace: false,
+        loop: true
+
+      }
+      var typed = new Typed("#element", options);
+    </script>
+
+
+
+
+
+
+
   </body>
 </div>

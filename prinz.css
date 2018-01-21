@@ -70,3 +70,10 @@ p {
     transform: scaleX(1);
   }
 }
+#element {
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+
+  color: red;
+  display: block;
+  text-align: center;
+  }
